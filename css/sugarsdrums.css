@@ -6,7 +6,7 @@ img{
   vertical-align : bottom;
 }
 body{
-  font-size : 24px;
+  font-size : 16px;
   font-family : "Open Sans",Helvetica,"游ゴシック","Yu Gothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   background-color : white;
 }
@@ -33,7 +33,7 @@ body{
 }
 
 footer{
-  font-size : 18px;
+  font-size : 12px;
   font-family : Monospace;
   font-weight : bold;
   margin : 16px;
@@ -55,6 +55,9 @@ footer{
   }
 }
 @media screen and (min-width:800px){
+  body{
+    font-size : 24px;
+  }
   .sidemenu{
     width : 240px;
   }
@@ -63,6 +66,9 @@ footer{
   }
   .main,.sidemenu{
     display : table-cell;
+  }
+  footer{
+    font-size : 16px;
   }
   .forsp{
     display : none;
