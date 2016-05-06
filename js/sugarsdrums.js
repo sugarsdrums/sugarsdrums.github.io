@@ -6,10 +6,13 @@ jQuery(function($){
   $.get("footer.html", function(data){
     $("footer").html(data);
   });
-  
+  //タイトルクリックでトップに戻れるようにしておく
+  $(".header").click(function(){
+    window.location.href = "/top.html";
+  });
   //イメージ
   $(".clickableimage").click(function(){
-    var $orgtag = $(this), src = $orgtag.attr("src"), $fl = $("<div id='filter'><img src='" + src + "'/></div>");
+    var src = $(this).attr("src"), $fl = $("<div id='filter'><img src='" + src + "'/></div>");
     $fl.click(function(){
       $(this).remove();
     });

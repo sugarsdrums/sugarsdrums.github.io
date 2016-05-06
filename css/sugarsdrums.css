@@ -33,7 +33,8 @@ h2{
   padding-top : 16px;
 }
 #filter img{
-  max-width : 80%;
+  max-width : 90%;
+  max-height : 90%;
   border : solid 2px white;
 }
 
