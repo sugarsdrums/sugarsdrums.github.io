@@ -34,14 +34,14 @@ h2{
 }
 #filter img{
   max-width : 90%;
-  max-height : 90%;
+  max-height : 75%;
   border : solid 2px white;
 }
 
 /* ヘッダ */
 .header{
   border-radius: 8px;
-  border : solid 1px blue;
+  border : solid 1px #66AAFF;
   background: #E0F0FF;
   margin : 4px;
   text-align : center;
