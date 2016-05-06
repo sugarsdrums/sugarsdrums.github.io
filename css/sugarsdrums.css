@@ -40,6 +40,15 @@ footer{
   text-align : right;
 }
 
+
+.top-items a{
+  display : block;
+  color : black;
+  margin : 4px;
+  padding : 8px;
+  text-decoration : none;
+}
+
 @media screen and (max-width:800px){
   .forpc{
     display : none;
