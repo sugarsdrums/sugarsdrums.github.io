@@ -124,10 +124,11 @@ footer{
   border-color : white;
   background-color : #447733;
   display : none;
+  font-size : 12px;
 }
 .live-title,.live-member,.live-address{
   margin : 1px;
-  padding : 2px;
+  padding : 2px 4px;
   background-color : #EEFFEE;
 }
 .live-info{
@@ -136,13 +137,14 @@ footer{
 }
 .live-info > div{
   flex-grow : 1;
-  padding : 2px;
+  padding : 2px 4px;
   background-color : #EEFFEE;
 }
 .live-time{
   margin-right : 1px;
 }
 
+/* PC向け */
 @media screen and (min-width:800px){
   body{
     font-size : 20px;
@@ -162,6 +164,10 @@ footer{
     flex : 1 1 auto;
   }
   footer{
+    font-size : 16px;
+  }
+  .schedule-detail{
+    display : block;
     font-size : 16px;
   }
 }
