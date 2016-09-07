@@ -11,7 +11,7 @@ body{
   margin-right : auto;
   margin-left : auto;
   font-size : 16px;
-  font-family : "Open Sans",Helvetica,"游ゴシック","Yu Gothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+  font-family : -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
   background-color : white;
 }
 p{
@@ -23,6 +23,11 @@ h2{
   font-size : 20px;
   background-color : #E0F0FF;
   padding : 8px;
+}
+h3{
+  font-size : 16px;
+  background-color : #E0F0FF;
+  padding : 4px;
 }
 #filter{
   position : fixed;
@@ -50,6 +55,7 @@ h2{
   text-align : center;
 }
 #titleimage{
+  margin : 12px;
   max-width : 90%;
 }
 
@@ -89,6 +95,52 @@ footer{
   width : 207px;
   height : 169px;
   margin : 8px;
+}
+
+/* スケジュール */
+.schedule-item{
+  margin-top : 4px;
+  border : solid 1px #447733;
+  display : flex;
+  background-color : #447733;
+}
+.schedule-item > div {
+  margin : 1px 1px 1px 1px;
+  padding : 2px;
+  background-color : #CCFFEE;
+}
+.live-date{
+  width : 64px;
+}
+.live-band{
+}
+.live-place{
+  flex : 1 1 auto;
+}
+
+.schedule-detail{
+  border-width : 1px;
+  border-style : solid;
+  border-color : white;
+  background-color : #447733;
+  display : none;
+}
+.live-title,.live-member,.live-address{
+  margin : 1px;
+  padding : 2px;
+  background-color : #EEFFEE;
+}
+.live-info{
+  margin : 1px;
+  display : flex;
+}
+.live-info > div{
+  flex-grow : 1;
+  padding : 2px;
+  background-color : #EEFFEE;
+}
+.live-time{
+  margin-right : 1px;
 }
 
 @media screen and (min-width:800px){
