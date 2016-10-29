@@ -13,6 +13,7 @@ body{
   font-size : 16px;
   font-family : -apple-system, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
   background-color : white;
+  overflow-y: scroll;
 }
 p{
   margin : 12px 8px;
@@ -24,10 +25,10 @@ h2{
   background-color : #E0F0FF;
   padding : 8px;
 }
-h3{
-  font-size : 16px;
+h3.schedule,h3.band{
+  font-size : 18px;
   background-color : #E0F0FF;
-  padding : 4px;
+  padding : 4px 16px;
 }
 #filter{
   position : fixed;
@@ -81,6 +82,12 @@ footer{
 }
 
 /* トップページ */
+.top-items div{
+  display : block;
+  color : black;
+  margin : 4px;
+  padding : 8px;
+}
 .top-items a{
   display : block;
   color : black;
@@ -100,17 +107,18 @@ footer{
 /* スケジュール */
 .schedule-item{
   margin-top : 4px;
-  border : solid 1px #447733;
+  border : solid 1px #AACCAA;
   display : flex;
-  background-color : #447733;
+  background-color : #AACCAA;
 }
 .schedule-item > div {
   margin : 1px 1px 1px 1px;
-  padding : 2px;
+  padding : 2px 6px;
   background-color : #CCFFEE;
 }
 .live-date{
-  width : 64px;
+  width : 90px;
+  text-align : left;
 }
 .live-band{
 }
@@ -169,5 +177,8 @@ footer{
   .schedule-detail{
     display : block;
     font-size : 16px;
+  }
+  .live-date{
+    width : 120px;
   }
 }

@@ -1,9 +1,12 @@
 jQuery(function($){
+  $.ajaxSetup({
+    cache: false
+  });
   //共通部分の読み込み
-  $.get("sidemenu.html", function(data){
+  $.get("/sidemenu.html", function(data){
     $(".sidemenu").html(data);
   });
-  $.get("footer.html", function(data){
+  $.get("/footer.html", function(data){
     $("footer").html(data);
   });
   //タイトルクリックでトップに戻れるようにしておく
@@ -17,9 +20,5 @@ jQuery(function($){
       $(this).remove();
     });
     $("body").append($fl);
-  });
-  //スケジュール詳細
-  $(".schedule-item").click(function(){
-    $(this).next().toggle(100);
   });
 });
