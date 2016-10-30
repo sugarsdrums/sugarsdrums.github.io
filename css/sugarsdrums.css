@@ -152,6 +152,10 @@ footer{
   margin-right : 1px;
 }
 
+/* バンド紹介 */
+.band-change{
+}
+
 /* PC向け */
 @media screen and (min-width:800px){
   body{
