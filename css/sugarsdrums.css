@@ -82,17 +82,13 @@ footer{
 }
 
 /* トップページ */
-.top-items div{
+.top-items div,.top-items a{
   display : block;
   color : black;
-  margin : 4px;
-  padding : 8px;
+  margin : 0px 4px;
+  padding : 4px 8px;
 }
 .top-items a{
-  display : block;
-  color : black;
-  margin : 4px;
-  padding : 8px;
   text-decoration : none;
 }
 
@@ -105,6 +101,28 @@ footer{
 }
 
 /* スケジュール */
+.calendar-view{
+  font-weight : normal;
+  border-radius: 5px;
+  background: #80DAF9;
+  color : black;
+  padding : 0px 12px;
+  margin-left : 12px;
+}
+.calendar-table{
+  display : flex;
+  width : 100%;
+}
+.calendar-table a{
+  display : block;
+  text-decoration : none;
+  border-radius: 5px;
+  background: #80DAF9;
+  color : black;
+  padding : 0px 12px;
+  margin : 1px;
+  flex-grow : 1;
+}
 .schedule-item{
   margin-top : 4px;
   border : solid 1px #AACCAA;
@@ -121,9 +139,10 @@ footer{
   text-align : left;
 }
 .live-band{
+  min-width : 120px;
 }
 .live-place{
-  flex : 1 1 auto;
+  flex-grow : 1;
 }
 
 .schedule-detail{
