@@ -135,14 +135,15 @@ footer{
   background-color : #CCFFEE;
 }
 .live-date{
-  width : 90px;
   text-align : left;
+  font-size : 14px;
 }
 .live-band{
-  min-width : 120px;
+  font-size : 14px;
 }
 .live-place{
   flex-grow : 1;
+  font-size : 14px;
 }
 
 .schedule-detail{
@@ -202,6 +203,14 @@ footer{
     font-size : 16px;
   }
   .live-date{
-    width : 120px;
+    width : 100px;
+    font-size : 16px;
+  }
+  .live-band{
+    min-width : 100px;
+    font-size : 16px;
+  }
+  .live-place{
+    font-size : 16px;
   }
 }
