@@ -172,6 +172,14 @@ footer{
   margin-right : 1px;
 }
 
+.live-date > span{
+  display : inline-block;
+  padding : 0px 6px;
+  background-color : #FF7777;
+  color : white;
+  font-weight : bold;
+}
+
 /* バンド紹介 */
 .band-change{
 }
@@ -203,7 +211,7 @@ footer{
     font-size : 16px;
   }
   .live-date{
-    width : 100px;
+    min-width : 100px;
     font-size : 16px;
   }
   .live-band{

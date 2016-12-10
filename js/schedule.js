@@ -5,8 +5,20 @@ jQuery(function($){
   $(".calendar-view").click(function(){
     $("div.calendar-position").toggle(100)
   });
-  //スケジュール詳細
+  //繧ｹ繧ｱ繧ｸ繝･繝ｼ繝ｫ隧ｳ邏ｰ
   $(".schedule-item").click(function(){
     $(this).next().toggle(100);
   });
+  //譖ｴ譁ｰ
+  var checkDate = function(){
+    return function(){
+      var limit = new Date($(this).attr("data-limit"));
+      return new Date().getTime() < limit.getTime();
+    };
+  };
+  $("[data-limit]")
+    .filter(function(){
+      var limit = new Date($(this).attr("data-limit"));
+      return limit.getTime() < new Date().getTime();
+    }).hide();
 });
