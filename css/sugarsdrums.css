@@ -121,6 +121,7 @@ footer{
   color : black;
   padding : 0px 12px;
   margin : 1px;
+  width : 30%;
   flex-grow : 1;
 }
 .schedule-item{
