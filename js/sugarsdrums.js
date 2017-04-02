@@ -5,6 +5,11 @@ jQuery(function($){
   //共通部分の読み込み
   $.get("/sidemenu.html", function(data){
     $(".sidemenu").html(data);
+    var d = new Date(), y = d.getFullYear(), m = d.getMonth() + 1;
+    if(m < 10){
+      m = "0" + m;
+    }
+    $("#schedule_tag").attr("href", "/schedule/schedule" + y + m + ".html");
   });
   $.get("/footer.html", function(data){
     $("footer").html(data);
