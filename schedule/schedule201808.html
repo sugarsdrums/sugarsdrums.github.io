@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Yuichi Sato Drums World</title>
+  <link rel="stylesheet" href="/css/sugarsdrums.css"/>
+  <script src="/js/jquery-min.js"></script>
+  <script src="/js/sugarsdrums.js"></script>
+  <script src="/js/schedule.js"></script>
+</head>
+<body>
+<h1 class="header"><img id="titleimage" src="/img/title.png" alt="Yuichi Sato Drums World"/></h1>
+<div class="container">
+  <div class="main">
+    <h3 class="schedule">2018年 8月<span class="calendar-view">他の月を見る</span></h3>
+    <div class="calendar-position"></div>
+
+<!-- data-limitに表示期限日付を設定する
+      <div class="live-date">xx/xx (x) <span data-limit="YYYY/MM/DD">更新</span></div>
+-->
+
+    <div class="schedule-item">
+      <div class="live-date">8/1 (水)</div>
+      <div class="live-band">漫談Life </div>
+      <div class="live-place">江別 turn around</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『第十七談！七夕・お盆前倒し！の巻』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:30 start/20:00</div>
+        <div class="live-price">\1,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        吉岡祥一(MC&amp;gt&amp;vo) 佐藤裕一(MC&amp;cajon&amp;key&amp;vo)
+      </div>
+      <div class="live-address">江別市野幌町59-8    (011)385-0114</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/2 (木)</div>
+      <div class="live-band">M-TOY BOX</div>
+      <div class="live-place">岩見沢 マヤコーヒー</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Estacionツアー2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:00 start/19:30(2set)</div>
+        <div class="live-price">\2,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        高崎希美(vl) 古舘賢治(gt) 町田拓哉(gt) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">岩見沢市栄町8丁目52-1  (0126)22-8912</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/3 (金)</div>
+      <div class="live-band">M-TOY BOX</div>
+      <div class="live-place">北見 カーティス・クリーク</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Estacionツアー2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:30  start/20:00(2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        高崎希美(vl) 古舘賢治(gt) 町田拓哉(gt) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">北見市春光町2丁目151-6  (0157)33-5236</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/4 (土)</div>
+      <div class="live-band">M-TOY BOX</div>
+      <div class="live-place">網走 ちぱしり</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Estacionツアー2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30  start/19:00(2set)</div>
+        <div class="live-price">前売\2,500 当日\3,000</div>
+      </div>
+      <div class="live-member">
+        高崎希美(vl) 古舘賢治(gt) 町田拓哉(gt) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">網走市桂町2丁目40-12         (0152)45-7840</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/5 (日)</div>
+      <div class="live-band">M-TOY BOX</div>
+      <div class="live-place">枝幸 三笠山展望閣2Fラウンジ</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Estacionツアー2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/14:30  start/15:00(2set)</div>
+        <div class="live-price">\2,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        高崎希美(vl) 古舘賢治(gt) 町田拓哉(gt) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">枝幸郡枝幸町宇遠内  (01636)2-2044＜鷲見＞</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/6 (月)</div>
+      <div class="live-band">Vital Trial</div>
+      <div class="live-place">札幌 D-Bop</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『2nd Album～DRIFT～発売記念ツアー』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:30  start/20:00(2set)</div>
+        <div class="live-price">\2,000(drink別)</div>
+      </div>
+      <div class="live-member">
+        金野俊秀(b) 蛇池雅人(sax) 谷川拓真(pf) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">札幌市中央区南1条西19丁目291番地山晃ハイツB1F  (011)613-3999</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/7 (火)</div>
+      <div class="live-band">鳴海賢治Trio</div>
+      <div class="live-place">留萌 World One</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Summer Editionツアー』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30    start/19:00(2set)</div>
+        <div class="live-price">\2,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        鳴海賢治(gt) 青木 務(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">留萌市開運町3丁目7-5 (090)2694-5177＜今城＞</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/9 (木)</div>
+      <div class="live-band">M-TOY BOX</div>
+      <div class="live-place">帯広 彩乃</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Estacionツアー2018』</div>
+      <div class="live-info">
+        <div class="live-time">start/19:30(2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        高崎希美(vl) 古舘賢治(gt) 町田拓哉(gt) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">帯広市西1条南7丁目7-2  (0155)23-0270</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/10 (金)</div>
+      <div class="live-band">鳴海賢治Group</div>
+      <div class="live-place">札幌    くう</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Summer Editionツアー』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:30  start/20:00(2set)</div>
+        <div class="live-price">予約\2,300  当日\2,800(共1drink)</div>
+      </div>
+      <div class="live-member">
+        鳴海賢治(gt) 木村ゆう(pf) 青木 務(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">札幌市中央区南1条西20丁目1-25アウルビルB1F     (011)218-1656</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/11 (土祝)</div>
+      <div class="live-band">高橋智美カルテット</div>
+      <div class="live-place">滝川 太郎吉蔵</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『CD発売記念ライブ！』</div>
+      <div class="live-info">
+        <div class="live-time">open/17:00  start/17:30(2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        高橋智美(vo) 酒井由紀子(pf) 伊藤未央(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">滝川市栄町2丁目8-9 (0125)22-7337</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/12 (日)</div>
+      <div class="live-band">SHIFT</div>
+      <div class="live-place">江別 turn around</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『リーダー！大西慶人バースデーライブ！』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:30  start/20:00(2set)</div>
+        <div class="live-price">\2,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        蛇池雅人(sax) 吉岡祥一(gt) 大西慶人(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">江別市野幌町59-8    (011)385-0114</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/16 (木)</div>
+      <div class="live-band">ふくまこづえ &amp; American Spirits</div>
+      <div class="live-place">札幌 JAMUSICA</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-info">
+        <div class="live-time">open/19:30   start/20:00 (2set)</div>
+        <div class="live-price">\2,000(drink別)</div>
+      </div>
+      <div class="live-member">
+        ふくまこづえ(vo) 高島 諭(pf) 金野俊秀(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">札幌市中央区北4条西28丁目1-16ラ・ワイズビルB1F    (011)612-1900</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/17 (金)</div>
+      <div class="live-band"><a href="http://www.lattecafe.jp/" target="_blank">Latte</a></div>
+      <div class="live-place">札幌 D-BOP</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『夏の特別編LIVE 2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:30  start/20:00(2set)</div>
+        <div class="live-price">予約\2,500 当日\3,000(drink別)</div>
+      </div>
+      <div class="live-member">
+        寺西幸子(pf&amp;？) 藤田圭一郎(b&amp;？) 佐藤裕一(drs&amp;？)
+      </div>
+      <div class="live-address">札幌市中央区南1条西19丁目291番地山晃ハイツB1F  (011)613-3999</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/18 (土)</div>
+      <div class="live-band">風間ヤスヒロ</div>
+      <div class="live-place">室蘭 居酒BAR ZOE</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Re：Collectionsツアー 2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:00  start/18:30(2set)</div>
+        <div class="live-price">\3,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        風間ヤスヒロ(vo&amp;key) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">室蘭市中島町1丁目12-1サンヴェール北都5F  (0143)46-0307</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/19 (日)</div>
+      <div class="live-band">風間ヤスヒロ</div>
+      <div class="live-place">青森 Be onespace222</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Re：Collectionsツアー 2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:00  start/18:30 (2set)</div>
+        <div class="live-price">前売\2,000当日\2,500(共drink別)</div>
+      </div>
+      <div class="live-member">
+        風間ヤスヒロ(vo&amp;key) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">青森市安方2丁目16-13 Y-SPOTビル6F-B   (017)763-5544</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/20 (月)</div>
+      <div class="live-band">風間ヤスヒロ</div>
+      <div class="live-place">北上 J．Boy</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Re：Collectionsツアー 2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:00    start/19:30(2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        風間ヤスヒロ(vo&amp;key) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">岩手県北上市諏訪町2丁目4-39石川ビル2F (0197)63-4260</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/21 (火)</div>
+      <div class="live-band">風間ヤスヒロ</div>
+      <div class="live-place">東根 コミュニティーサロン辻～街角交流館</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Re：Collectionsツアー 2018』</div>
+      <div class="live-info">
+        <div class="live-time">start/19:00(2set)</div>
+        <div class="live-price">\2,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        風間ヤスヒロ(vo&amp;key) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">山形県東根市神町中央2-5-14   (0237)47-0187＜芳賀＞</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/22 (水)</div>
+      <div class="live-band">風間ヤスヒロ</div>
+      <div class="live-place">川西 やわた蔵</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Re：Collectionsツアー 2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30    start/19:00(2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        風間ヤスヒロ(vo&amp;key) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">山形県東置賜郡川西町西大塚411-1 (090)2889-3722＜村田＞</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/23 (木)</div>
+      <div class="live-band">風間ヤスヒロ</div>
+      <div class="live-place">新発田 コトリカフェ</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Re：Collectionsツアー 2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30  start/19:00(2set)</div>
+        <div class="live-price">\2,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        風間ヤスヒロ(vo&amp;key) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">新潟県新発田市月岡温泉552-60  (0254)20-7527</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/24 (金)</div>
+      <div class="live-band">風間ヤスヒロ</div>
+      <div class="live-place">高田馬場  音楽室DX</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Re：Collectionsツアー 2018』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30  start/19:30(2set)</div>
+        <div class="live-price">\3,500(オーダー別)</div>
+      </div>
+      <div class="live-member">
+        風間ヤスヒロ(vo&amp;key) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">東京都新宿区西早稲田3-20-4金子ビルB1F  (03)5273-5110</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/26 (日)</div>
+      <div class="live-band">モア東京ボーカルスクールLIVE！</div>
+      <div class="live-place">恵比寿 天窓．Switch</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-info">
+        <div class="live-time">start/12:00</div>
+        <div class="live-price">\1,000</div>
+      </div>
+      <div class="live-member">
+        ＜サポート＞関 秀樹(gt) 浜 博志(pf) 大西慶人(b) 米田裕也(sax) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">東京都渋谷区恵比寿3-28-4 B1F (03)5795-1887</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/28 (火)</div>
+      <div class="live-band">Tres Dias Parto</div>
+      <div class="live-place">旭川 ラバーソウル</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『4th Album Generalife tour 2018～2019』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30   start/19:00(2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        大島さゆり(fl) 橘田由希乃(pf) 佐藤裕一(cajon&amp;key)
+      </div>
+      <div class="live-address">旭川市4条7丁目ツツジプラザビルB1F  (0166)21-4567</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/29 (水)</div>
+      <div class="live-band">Tres Dias Parto</div>
+      <div class="live-place">札幌 蕎麦屋たいせつ</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『4th Album Generalife tour 2018～2019』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:00 start/20:00 (2set)</div>
+        <div class="live-price">\3,000(半蕎麦・オードブル・1drink)</div>
+      </div>
+      <div class="live-member">
+        大島さゆり(fl) 橘田由希乃(pf) 佐藤裕一(cajon&amp;key)
+      </div>
+      <div class="live-address">札幌市中央区南5条西8丁目6-12    (011)511-8307</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/30 (木)</div>
+      <div class="live-band">M-TOY BOX</div>
+      <div class="live-place">札幌 和田珈琲館  (先着20名様)</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『Estacionツアー2018』</div>
+      <div class="live-info">
+        <div class="live-time">start/19:30(2set)</div>
+        <div class="live-price">\2,500(ケーキ+1drink)</div>
+      </div>
+      <div class="live-member">
+        高崎希美(vl) 古舘賢治(gt) 町田拓哉(gt) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">札幌市東区北49条東16丁目7-3   (011)785-5778</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">8/31 (金)</div>
+      <div class="live-band">Railways</div>
+      <div class="live-place">道北エリア 各駅</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『全国秘境駅200選ツアー』</div>
+      <div class="live-info">
+        <div class="live-time">start/秘境タイム</div>
+        <div class="live-price"></div>
+      </div>
+      <div class="live-member">
+        酒井由紀子(key) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">某所</div>
+    </div>
+
+  </div>
+  <div class="sidemenu"></div>
+</div>
+<footer></footer>
+</body>
+</html>
