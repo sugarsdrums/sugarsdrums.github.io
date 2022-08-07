@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Yuichi Sato Drums World</title>
+  <link rel="stylesheet" href="/css/sugarsdrums.css"/>
+  <script src="/js/jquery-min.js"></script>
+  <script src="/js/sugarsdrums.js"></script>
+  <script src="/js/schedule.js"></script>
+</head>
+<body>
+<h1 class="header"><img id="titleimage" src="/img/title.png" alt="Yuichi Sato Drums World"/></h1>
+<div class="container">
+  <div class="main">
+    <h3 class="schedule">2022年 9月<span class="calendar-view">他の月を見る</span></h3>
+    <div class="calendar-position"></div>
+
+<!-- data-limitに表示期限日付を設定する
+      <div class="live-date">xx/xx (x) <span data-limit="YYYY/MM/DD">更新</span></div>
+-->
+
+    <div class="schedule-item">
+      <div class="live-date">9/2 (金)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">留萌 Heart Land Cafe</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『6th album Eternally ツアー2022』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:00 start/18:30 (2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon) ＜ゲスト＞浦島琴音(fl)
+      </div>
+      <div class="live-address">留萌市礼受町 (090)2694-5177〈今城〉</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/3 (土)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">士別 夢語来里庵</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『6th album Eternally ツアー2022』</div>
+      <div class="live-info">
+        <div class="live-time">open/14:30 start/15:00 (2set)</div>
+        <div class="live-price">\2,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon) ＜ゲスト＞浦島琴音(fl)
+      </div>
+      <div class="live-address">士別市下士別町44線西 (090)8706-6049〈滝吉〉</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/4 (日)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">旭川 居酒屋 中ちゃん</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『6th album Eternally ツアー2022』</div>
+      <div class="live-info">
+        <div class="live-time">open/17:00 start/18:00 (2set)</div>
+        <div class="live-price">\2,500(要オーダー)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon) ＜ゲスト＞浦島琴音(fl)
+      </div>
+      <div class="live-address">旭川市3条6丁目右10 B1F (0166)22-5076</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/7 (水)</div>
+      <div class="live-band">plugged &amp;plugged</div>
+      <div class="live-place">札幌 エルマンゴ</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-info">
+        <div class="live-time">open/19:00 start/19:30 (2set)</div>
+        <div class="live-price">\2,500(drink別)</div>
+      </div>
+      <div class="live-member">
+        大倉まみこ(fl) 瀧本志保(vn) 酒井由紀子(pf) support:佐藤裕一(cajon)
+      </div>
+      <div class="live-address">札幌市中央区南7条西3丁目1 青樹社ビルB1F (011)512-0195</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/8 (木) <span style="font-weight:bold; color:white; background-color:blue;">配信</span></div>
+      <div class="live-band">漫談Life</div>
+      <div class="live-place">江別 turn around</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『第七十九談！まだまだ残暑ざんしょ！の巻』</div>
+      <div class="live-info">
+        <div class="live-time">start/20:00 (2set)</div>
+        <div class="live-price">\1,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        吉岡祥一(MC&amp;gt&amp;vo) 佐藤裕一(MC&amp;cajon&amp;key&amp;vo)
+      </div>
+      <div class="live-address">江別市野幌町59-8 (011)385-0114</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/9 (金)</div>
+      <div class="live-band">風間ヤスヒロ</div>
+      <div class="live-place">旭川 min na cafe</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『SPECIAL LIVE 2022～宙の向こうへ～ in 旭川』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:00 (2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        風間ヤスヒロ(vo &amp; key) 佐藤裕一(drs) 〈ゲスト〉TANK宮本(b)
+      </div>
+      <div class="live-address">旭川市3条15丁目銀ビル1F (090)5221-3297</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/10 (土)</div>
+      <div class="live-band">Trio the 裕福川</div>
+      <div class="live-place">札幌 北乃家</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-info">
+        <div class="live-time">open/18:00 start/19:00 (2set)</div>
+        <div class="live-price">\3,000＋飲食チケット\1,800</div>
+      </div>
+      <div class="live-member">
+        福由樹子(pf) 川内啓史(b) 佐藤裕一(handpan &amp; cajon)
+      </div>
+      <div class="live-address">札幌市中央区南6条西3丁目第二串武ビル4F (011)213-0211</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/11 (日)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">雨竜 豆電球</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『豆電球 感謝祭！2022』</div>
+      <div class="live-info">
+        <div class="live-time">open/11:00 Live start/14:30</div>
+        <div class="live-price"></div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon)
+      </div>
+      <div class="live-address">雨竜郡雨竜町満寿36-80 (090)3776-9450</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/15 (木)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">東根 コミュニティーサロン辻～街角交流館～</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『6th album Eternally ツアー2022』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:00 start/19:00 (2set)</div>
+        <div class="live-price">\2,500</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon)
+      </div>
+      <div class="live-address">山形県東根市神町中央2-5-14 (0237)47-0187〈芳賀〉</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/16 (金)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">米沢 山形銀行米沢支店</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『ロビーミニコンサート』</div>
+      <div class="live-info">
+        <div class="live-time">start/12:00</div>
+        <div class="live-price"></div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon)
+      </div>
+      <div class="live-address">山形県米沢市門東町3丁目1-5 (0238)22-2010</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/16 (金)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">川西 大光院</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『読経コラボ・ミニコンサート』</div>
+      <div class="live-info">
+        <div class="live-time">start/14:00</div>
+        <div class="live-price"></div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon)
+      </div>
+      <div class="live-address">山形県東置賜郡川西町上小松2948 (090)2989-1552〈片倉〉</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/16 (金)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">新発田 ポワール・アン・クー</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『6th album Eternally ツアー2022』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:30 (2set)</div>
+        <div class="live-price">\3,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon)
+      </div>
+      <div class="live-address">新潟県新発田市中央町3-12-1 マルコシビル2F (0254)26-8839</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/17 (土)</div>
+      <div class="live-band">ふくまこづえ</div>
+      <div class="live-place">三条 楽道</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『JAZZ &amp; MORE』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:00 (2set)</div>
+        <div class="live-price">\3,000(drink別)</div>
+      </div>
+      <div class="live-member">
+        ふくまこづえ(vo) 金井拓明(gt) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">新潟県三条市東裏館2丁目3-7 (0256)32-6245</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/18 (日)</div>
+      <div class="live-band">ふくまこづえ</div>
+      <div class="live-place">新潟 忘時庵</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『JAZZ &amp; MORE』</div>
+      <div class="live-info">
+        <div class="live-time">open/17:30 start/18:00 (2set)</div>
+        <div class="live-price">\3,500(酒肴盛り合わせ付)</div>
+      </div>
+      <div class="live-member">
+        ふくまこづえ(vo) 金井拓明(gt) 佐藤裕一(cajon)
+      </div>
+      <div class="live-address">新潟市中央区営所通260-4 (025)223-5225</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/19 (月祝)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">新潟 Bridges Bar</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『6th album Eternally ツアー2022』</div>
+      <div class="live-info">
+        <div class="live-time">open/17:30 start/18:00 (2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon) 〈ゲスト〉太田学(handpan)
+      </div>
+      <div class="live-address">新潟市中央区古町8番町1506-1 日分ビル2F A号室 (090)8801-7703</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/23 (金祝)</div>
+      <div class="live-band">THE 打宴会！</div>
+      <div class="live-place">金沢 NOEL</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『お客様参加型ドラムゲーム in 金沢』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:00 start/18:30 (2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(drs)
+      </div>
+      <div class="live-address">石川県金沢市有松2丁目3-30 YMビル1F (090)8267-0160〈種池〉</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/24 (土)</div>
+      <div class="live-band">Sugar's “KANAZAWA” Club</div>
+      <div class="live-place">金沢 Mock</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『金沢ラテン化計画 オープン戦！』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:00 (2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        種池有美子(fl) 東圭介(pf) 種池司(b) 木下力(tp) 平野真作(tp) 北村真範(tb)<br/>桶作健(drs) 冨水毅(conga) 大島嵩章(per) 佐藤裕一(timb &amp; drs)
+      </div>
+      <div class="live-address">石川県金沢市若松町セ104番地1-N-5番地 (076)256-1015</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/25 (日)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">高岡 パン工房BREAD</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『6th album Eternally ツアー2022』</div>
+      <div class="live-info">
+        <div class="live-time">open/14:30 start/15:00 (2set)</div>
+        <div class="live-price">\3,000</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan &amp; cajon) 〈ゲスト〉種池有美子(fl)
+      </div>
+      <div class="live-address">富山県高岡市西田698 (0766)44-5550</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/28 (水) <span style="font-weight:bold; color:white; background-color:blue;">配信</span></div>
+      <div class="live-band">SHIFT</div>
+      <div class="live-place">江別 turn around</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-info">
+        <div class="live-time">open/19:30 start/20:00 (2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        迫 慎也(sax) 吉岡祥一(gt) 大西慶人(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">江別市野幌町59-8 (011)385-0114</div>
+    </div>
+
+  </div>
+  <div class="sidemenu"></div>
+</div>
+<footer></footer>
+</body>
+</html>
