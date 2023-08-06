@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Yuichi Sato Drums World</title>
+  <link rel="stylesheet" href="/css/sugarsdrums.css"/>
+  <script src="/js/jquery-min.js"></script>
+  <script src="/js/sugarsdrums.js"></script>
+  <script src="/js/schedule.js"></script>
+</head>
+<body>
+<h1 class="header"><img id="titleimage" src="/img/title.png" alt="Yuichi Sato Drums World"/></h1>
+<div class="container">
+  <div class="main">
+    <h3 class="schedule">2023年 9月<span class="calendar-view">他の月を見る</span></h3>
+    <div class="calendar-position"></div>
+
+<!-- data-limitに表示期限日付を設定する
+      <div class="live-date">xx/xx (x) <span data-limit="YYYY/MM/DD">新規</span></div>
+      <div class="live-date">xx/xx (x) <span data-limit="YYYY/MM/DD">更新</span></div>
+-->
+
+    <div class="schedule-item">
+      <div class="live-date">9/2 (土)</div>
+      <div class="live-band">Tres Dias Parto</div>
+      <div class="live-place">札幌 蕎麦屋たいせつ</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-info">
+        <div class="live-time">open/17:00 start/18:00(2set)</div>
+        <div class="live-price">\3,500(半蕎麦・オードブル・1drink)</div>
+      </div>
+      <div class="live-member">
+        大島さゆり(fl) 橘田由希乃(pf) 佐藤裕一(cajon&amp;key)
+      </div>
+      <div class="live-address">北見市春光町2丁目151-6 (0157)33-5236</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/5 (火) <span style="font-weight:bold; color:white; background-color:blue;">配信</span></div>
+      <div class="live-band">漫談Life</div>
+      <div class="live-place">江別 turn around</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『第九十七談 カウントダウン2！！の巻』</div>
+      <div class="live-info">
+        <div class="live-time">start/20:00</div>
+        <div class="live-price">\2,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        吉岡祥一(MC&amp;gt&amp;vo) 佐藤裕一(MC&amp;cajon&amp;key&amp;vo)
+      </div>
+      <div class="live-address">江別市野幌町59-8 (011)385-0114</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/6 (水) <span style="font-weight:bold; color:white; background-color:blue;">配信</span></div>
+      <div class="live-band"><a href="http://www.lattecafe.jp/" target="_blank">Latte</a></div>
+      <div class="live-place">札幌 D-Bop</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『結成20周年 -19th album"Live"&amp; 20th album"trajectoria 20"ツアー 2021～2023』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:30 start/20:00 (2set)</div>
+        <div class="live-price">\3,000(drink別)</div>
+      </div>
+      <div class="live-member">
+        寺西幸子(pf) 藤田圭一郎(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">札幌市中央区南1条西19丁目291番地山晃ハイツB1F (011)613-3999</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/8 (金)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">留萌 Love Vegetable TANAKA</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『7th album etranger ツアー2023～2024』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:00(2set)</div>
+        <div class="live-price">\2,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon) ＜ゲスト＞浦島琴音(fl)
+      </div>
+      <div class="live-address">留萌市栄町2丁目4-55 (0164)42-0858</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/9 (土)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">士別 焚き火キャンプ場 士別コペラ</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-info">
+        <div class="live-time">時間未定</div>
+        <div class="live-price"></div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon) ＜ゲスト＞浦島琴音(fl)
+      </div>
+      <div class="live-address">士別市東4条21丁目473-27</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/10 (日)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">雨竜 豆電球</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『豆電球 感謝祭！2023』</div>
+      <div class="live-info">
+        <div class="live-time">open/11:00 Live start/14:30</div>
+        <div class="live-price"></div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon)
+      </div>
+      <div class="live-address">雨竜郡雨竜町満寿36-80 (090)3776-9450</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/12 (火)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">東根 コミュニティサロン辻～街角交民館～</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『7th album etranger ツアー2023～2024』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:00 (2set)</div>
+        <div class="live-price">\3,000</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon)
+      </div>
+      <div class="live-address">山形県東根市神町中央2-5-14 (0237)47-0187＜芳賀＞</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/13 (水)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">新発田 ポワール・アン・クー</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『7th album etranger ツアー2023～2024』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:00 (2set)</div>
+        <div class="live-price">\3,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon)
+      </div>
+      <div class="live-address">新潟県新発田市中央町3-12-1 マルコシビル2F (0254)26-8839</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/14 (木)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">新潟 ブラフマー</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『7th album etranger ツアー2023～2024』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:00 start/19:30(2set)</div>
+        <div class="live-price">\3,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon) ＜ゲスト＞太田学(handpan)
+      </div>
+      <div class="live-address">新潟市中央区古町通8番町1435番地 RENO古町2F (090)8801-7703</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/15 (金)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">金沢 喫茶 25 ni-co</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『7th album etranger ツアー2023～2024』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:00 (2set)</div>
+        <div class="live-price">\3,000(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon) ＜ゲスト＞種池有美子(fl)
+      </div>
+      <div class="live-address">石川県金沢市専光寺町タ8-1 (076)225-3725</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/16 (土)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">金沢 にし茶屋街 桜桃</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『7th album etranger ツアー2023～2024』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:00 start/18:30 (2set)</div>
+        <div class="live-price">\3,500(1drink)</div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon) ＜ゲスト＞種池有美子(fl)
+      </div>
+      <div class="live-address">石川県金沢市野町2-24-4 (076)256-1015</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/17 (日)</div>
+      <div class="live-band">Sugar's “KANAZAWA” Club</div>
+      <div class="live-place">金沢 CARLO CENTRO</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『アモーレナイト！』</div>
+      <div class="live-info">
+        <div class="live-time">時間料金未定</div>
+        <div class="live-price"></div>
+      </div>
+      <div class="live-member">
+        種池有美子(fl) 木下力(tp) 角島秀克(tp) 笠島富士夫(tp) 北村真範(tb)<br/>種池司(b) 桶作健(drs) 富水毅(conga) 佐藤裕一(timb&amp;drs)
+      </div>
+      <div class="live-address">石川県金沢市片町2丁目2-2 (076)256-5646</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/18 (月祝)</div>
+      <div class="live-band">PAN DURO</div>
+      <div class="live-place">南砺 光教寺</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『7th album etranger ツアー2023～2024』</div>
+      <div class="live-info">
+        <div class="live-time">時間未定</div>
+        <div class="live-price"></div>
+      </div>
+      <div class="live-member">
+        佐藤裕一(handpan&amp;cajon) ＜ゲスト＞種池有美子(fl)
+      </div>
+      <div class="live-address">富山県南砺市井波1735 (0763)82-0074</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/22 (金)</div>
+      <div class="live-band">Sugar's Club</div>
+      <div class="live-place">金沢 もっきりや</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『金沢ラテン化計画2023 前夜祭！』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:00 start/19:30(2set)</div>
+        <div class="live-price">\4,000(drink別)</div>
+      </div>
+      <div class="live-member">
+        高橋ゲタ夫(b) 赤木りえ(fl) 仲田美穂(pf) 佐藤裕一(drs) <br/>＜ゲスト＞種池有美子(fl) とみず“トミー”つよし(per)
+      </div>
+      <div class="live-address">石川県金沢市柿木畠3-6 (076)231-0096</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/23 (土祝)</div>
+      <div class="live-band">Sugar's Club</div>
+      <div class="live-place">金沢 Mock 講習会</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『金沢ラテン化計画2023』</div>
+      <div class="live-info">
+        <div class="live-time">open/14:30 start/15:00～17:30</div>
+        <div class="live-price">\3,500</div>
+      </div>
+      <div class="live-member">
+        高橋ゲタ夫(b) 赤木りえ(fl) 仲田美穂(pf) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">石川県金沢市若松町セ104番地1-N-5番地 (076)256-1015</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/24 (日)</div>
+      <div class="live-band">Sugar's Club</div>
+      <div class="live-place">金沢 Mock</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『金沢ラテン化計画2023』</div>
+      <div class="live-info">
+        <div class="live-time">発表会 open/14:30 start/15:00～16:30<br/>ライブ open/17:00 start/17:30</div>
+        <div class="live-price"><br/>\4,000</div>
+      </div>
+      <div class="live-member">
+        高橋ゲタ夫(b) 赤木りえ(fl) 仲田美穂(pf) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">石川県金沢市若松町セ104番地1-N-5番地 (076)256-1015</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/29 (金) <span style="font-weight:bold; color:white; background-color:blue;">配信</span></div>
+      <div class="live-band">SHIFT</div>
+      <div class="live-place">釧路 喫茶えいが館</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『ROCK CIRCUIT 2023』</div>
+      <div class="live-info">
+        <div class="live-time">open/19:00 start/19:30(2set)</div>
+        <div class="live-price">前売\3,000 当日\3,500(共1drink)</div>
+      </div>
+      <div class="live-member">
+        迫 慎也(sax) 吉岡祥一(gt) 大西慶人(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">釧路市末広町12-2 駅前ホテル・パルーデ隣 (0154)22-0715</div>
+    </div>
+
+    <div class="schedule-item">
+      <div class="live-date">9/30 (土) <span style="font-weight:bold; color:white; background-color:blue;">配信</span></div>
+      <div class="live-band">SHIFT</div>
+      <div class="live-place">中標津 ティコティコ</div>
+    </div>
+    <div class="schedule-detail">
+      <div class="live-title">『ROCK CIRCUIT 2023』</div>
+      <div class="live-info">
+        <div class="live-time">open/18:30 start/19:00</div>
+        <div class="live-price">\2,000</div>
+      </div>
+      <div class="live-member">
+        迫 慎也(sax) 吉岡祥一(gt) 大西慶人(b) 佐藤裕一(drs)
+      </div>
+      <div class="live-address">中標津町北中12番地7 (01537)4-2033</div>
+    </div>
+
+  </div>
+  <div class="sidemenu"></div>
+</div>
+<footer></footer>
+</body>
+</html>
