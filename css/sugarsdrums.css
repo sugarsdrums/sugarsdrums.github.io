@@ -94,9 +94,8 @@ footer{
 
 /* プロフィール */
 .profile-image{
-  /* 今使っている画像の元サイズは621x507 */
-  width : 207px;
-  height : 169px;
+  width : 324px;
+  height : 486px;
   margin : 8px;
 }
 
